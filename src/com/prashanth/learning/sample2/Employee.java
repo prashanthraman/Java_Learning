@@ -1,4 +1,4 @@
-package com.prashanth.sample1;
+package com.prashanth.learning.sample2;
 
 import java.util.Calendar;
 

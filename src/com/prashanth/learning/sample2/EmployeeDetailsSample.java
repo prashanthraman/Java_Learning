@@ -1,7 +1,5 @@
-package com.prashanth.sample1;
+package com.prashanth.learning.sample2;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 public class EmployeeDetailsSample {
@@ -28,6 +26,7 @@ public class EmployeeDetailsSample {
 			System.out.println("Enter the employee salary:");
 			emp[i].setSalary(scan.nextInt());
 			scan.nextLine();
+			scan.close();
 		}
 		for(int j=0;j<no_of_emp;j++)
 		{
