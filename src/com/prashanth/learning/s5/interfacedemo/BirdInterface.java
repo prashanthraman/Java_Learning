@@ -1,6 +1,6 @@
-package com.prashanth.learning.s5.Interface;
+package com.prashanth.learning.s5.interfacedemo;
 
-public interface Birds {
+public interface BirdInterface {
 	public void fly();
 	public void chirp();
 	public void eat(String food);

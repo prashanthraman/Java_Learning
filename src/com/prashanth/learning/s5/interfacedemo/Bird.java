@@ -1,8 +1,7 @@
-package com.prashanth.learning.s5.Interface;
+package com.prashanth.learning.s5.interfacedemo;
 
-public class Bird implements Birds {
+public class Bird implements BirdInterface {
 	public String color;
-	private String size = "medium";
 	public String name;
 
 	@Override
@@ -19,19 +18,19 @@ public class Bird implements Birds {
 
 	@Override
 	public void eat(String food) {
-		System.out.println("The bird ate 2 cereal.");
+		System.out.println("String: The bird ate "+food+" cereal.");
 
 	}
 
 	@Override
 	public void eat(int food) {
-		System.out.println("The bird drank water.");
+		System.out.println("int:The bird drank "+food+"ml water.");
 
 	}
 
 	@Override
 	public void eat(double food) {
-		System.out.println("The bird ate seeds.");
+		System.out.println("double:The bird ate "+food+" seeds.");
 
 	}
 
