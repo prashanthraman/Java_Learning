@@ -28,8 +28,7 @@ public class PhoenixBird extends Bird {
 	}
 
 	/**
-	 * this method overrides name, color of Bird class. Implements Size of its
-	 * own
+	 * this method is overridden
 	 */
 	public String toString() {
 		return MessageFormat.format("The birds name is {0}. The color of the bird is {1}. Its a {2} size bird.",

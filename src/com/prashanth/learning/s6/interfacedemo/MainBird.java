@@ -3,7 +3,6 @@ package com.prashanth.learning.s6.interfacedemo;
 public class MainBird {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		BirdInterface encapsulatedBird = new Bird();
 		Bird bird1=new Bird();
 		bird1.setName("Sparrow");
@@ -26,6 +25,9 @@ public class MainBird {
 		bird1.chirp();
 		bird1.migrate();
 		
+		encapsulatedBird.chirp();
+		encapsulatedBird.fly();
+		encapsulatedBird.eat("20");
 		// cannot migrate encapsulated bird
 		// encapsulatedBird.migrate();
 
