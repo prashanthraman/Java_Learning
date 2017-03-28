@@ -14,8 +14,10 @@ Markup language: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatshee
 3) Encapsulation - Hiding the methods and variable within a class.
 
 #### Senthur comments
+`
 1. xxx
 2. xxx
+`
 
 ### 03/23 - Enumerators
 4) Enumerator
