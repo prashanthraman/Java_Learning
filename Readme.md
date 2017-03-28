@@ -3,13 +3,18 @@
 ## Sample 1 - 
 .....
 
-## Sample 5 - learning Interface and OOPS concepts
+## Sample 5
+
+### 03/22 - learn Interface and OOPS concepts
+
 1) Method Overloading - Process of calling the same method with different parameters.
 2) Method Overriding - Process of calling the same method with different functionality in child class.
 3) Encapsulation - Hiding the methods and variable within a class.
 
+###03/23 - Enumerators
+4) Enumerator
+...
 
-etc...
 
 
 
