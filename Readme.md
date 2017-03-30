@@ -47,3 +47,10 @@ b) Class name should not have any "_".
 c) For method overloading give a better description in sysout to see which method is getting called.
 d) Package name should have only lower case letters.
 Learned enumerator concept and applied it for size of the bird.
+
+## 03/30
+Updated package com.prashanth.learning.s7.exceptionhandling.
+Learned Exception Handling.
+a) Handled File not found error.
+b) Divide by zero error.
+Learning Generics and Wildcards.
